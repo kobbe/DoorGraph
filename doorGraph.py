@@ -102,7 +102,7 @@ if __name__ == "__main__":
                 colors.append(color)
         
         #color to state
-        state = ["<font color='green'>Öppet</font>" if i=="green" else "<font color='red'>Strängt</font>" if i=="r" else "<font color='FFC200'>Ingen data</font>" for i in colors]
+        state = [u"<font color='green'>Öppet</font>" if i=="green" else u"<font color='red'>Strängt</font>" if i=="r" else u"<font color='FFC200'>Ingen data</font>" for i in colors]
         
         #Save the intervals in a text file.
         with open(args.output + ".compressed.txt",'w') as f:
