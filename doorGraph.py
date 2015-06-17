@@ -37,10 +37,10 @@ import time
 import re
 import subprocess
 #OFFSET = 30 #Which second to offset to
-sys.stderr = open('/home/pi/doorgraph/errorlog.txt', 'a')
+sys.stderr = open('/home/pi/doorGraph/errorlog.txt', 'a')
 #sys.stdout = open('/home/pi/doorgraph/stdout.txt','a')
-ERRLOG = "/home/pi/doorgraph/errorlog.txt"
-LOG = "/home/pi/doorgraph/stdout.txt"
+ERRLOG = "/home/pi/doorGraph/errorlog.txt"
+LOG = "/home/pi/doorGraph/stdout.txt"
 
 
 #Makes sure the time interval is >0
