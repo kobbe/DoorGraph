@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 """ program to make a graph from door log in moebius.
 
 The input is sent with stdin so built in efficient metods like tail can be used in
